@@ -1,0 +1,52 @@
+.heart {
+  position: relative;
+  
+  width: 5px; height: 100%;
+  
+}
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 18px; height: 28px;
+  background-color: #3F029D;
+  border-color: #3F029D;
+  border-radius: 50px 50px 0 0;
+  transition: background-color 0.2s,border-color 0.2s,scale 0.2s;
+  scale: calc(1.05);
+  border: solid #3F029D 1px;
+  top:-10px;
+}
+.heart::before { left:10px; transform: rotate(-45deg); transform-origin: 0 100%; }
+.heart::after  { left: -10px;    transform: rotate(45deg);  transform-origin: 100% 100%; }
+
+
+.heartblack{
+  position: relative;
+  width: 5px; height: 100%;
+}
+.heartblack::before,
+.heartblack::after {
+  border: solid  1px;
+  top:-10px;
+  content: "";
+  position: absolute;
+  width: 18px; height: 28px;
+  background-color: #717171;
+  border-color: #717171;
+  border-radius: 50px 50px 0 0;
+ transition: background-color 0.2s,border-color 0.2s,scale 0.2s;
+}
+.heartblack::before { left:10px; transform: rotate(-45deg); transform-origin: 0 100%; }
+.heartblack::after  { left: -10px;    transform: rotate(45deg);  transform-origin: 100% 100%; }
+
+
+.like{
+  padding: 0 5px 0px 0;
+  margin: 0 10px 0 5px;
+}
+.buttom{
+  margin-right: 8%;
+}
+
+

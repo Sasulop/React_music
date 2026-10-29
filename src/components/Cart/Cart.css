@@ -1,0 +1,35 @@
+
+.cart{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+.cart_img{
+  width: 100%;
+  height: 160px;
+
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.cart_name_music{
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+.cart_author{
+  color: white;
+  font-size: 20px;
+   margin: 0;
+}
+.cart_text{
+  margin-left: 5px;
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.button_cart{
+  width: 50%;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #16171D;
+  margin-top: 10px;
+}
+.button_cart img{
+  height: 60%;
+}
+ .button_player{
+  position: absolute;
+  left: 50%;
+  top:90%;
+  width: 90px;
+  background-color: #3E0F85;
+  border-radius: 10px;
+  border: 0px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.button_player:hover + .context_menu{
+  background-color: #2D0569;
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.2s;;
+}
+.button_player:hover{
+  background-color: #2D0569;
+  transition: transform 0.2s;;
+}
+.button_player:active {
+  background-color: #3F029D;
+  transform: scale(0.95);
+}
+
+ .tr_button{
+    width: 16px;
+    height: 16px;
+    transform: rotate(90deg);
+ }
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 40px solid #717171; /* Цвет и ширина треугольника */
+  border-radius: 2px;
+ }

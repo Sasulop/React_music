@@ -1,0 +1,83 @@
+.header{
+  display: flex;
+
+}
+
+.titleHeader{
+  color: white;
+  font-size: 3vw;
+}
+.div_block_header{
+  display: flex;
+  align-items: center;
+  width: 18%;
+  margin-right: 2%;
+}
+
+/*Блок плеера*/
+.dev_player{
+  width: 80%;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 24px;
+
+}
+.play{
+  background-color: var(--color_main) ;
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  box-sizing: border-box;
+  transition-property:background;
+  transition-duration:0.3s;
+  border: 0;
+  flex-shrink: 1;
+}
+.play:hover{
+  background-color: #2D0569;
+
+  transition: transform 0.2s;;
+}
+.play:active {
+  background-color: #3F029D;
+  transform: scale(0.95);
+}
+
+
+.name_music{
+  color: white;
+  font-size: 32px;
+  padding-left: 10%;
+  animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*Треуголка кнопка*/
+
+
+
+ .interact{
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  display: flex;
+  gap: 20%;
+  position: relative;
+ }

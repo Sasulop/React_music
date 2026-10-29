@@ -1,0 +1,10 @@
+:root {
+  --color_bg: #16171D;
+
+}
+body{
+  background-color: var(--color_bg);
+  background-image:"phone";
+  margin: 1%;
+}
+

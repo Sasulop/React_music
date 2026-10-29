@@ -1,0 +1,15 @@
+ .prev-btn{
+position: relative;
+display: flex;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 0;
+  border: 0;
+ }
+ .palka{
+  position: absolute;
+  width: 7px;
+  height: 33px;
+  background-color: #717171;
+ }

@@ -1,0 +1,69 @@
+:root{
+  --color_main: #3E0F85;
+
+}
+
+
+
+.allMain{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.cartDown{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+
+
+.cart_full{
+  
+max-height: 330px;
+}
+.cart_img_full{
+  height: 60%;
+  border-radius: 20px;
+}
+.cart_name_music_full{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 500;
+}
+.cart_author_full{
+  color: white;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+
+}
+
+.next{
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+.next.close{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0%);
+  transition: opacity 0.4s, visibility 0.4s, transform 0.4s, display 0.4s, max-width 0.4s;
+  position: fixed;
+  max-width: 0px;
+}
+
+.likeSize{
+  width: 20px;
+  position: relative;
+}
+
+.positionMenu{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}

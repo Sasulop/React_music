@@ -1,0 +1,37 @@
+.circular-player {
+  width: 360px;
+  
+  height: 360px;
+}
+
+.circular-progress {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  cursor: pointer;
+  touch-action: none;
+  transform: rotate(0deg);
+}
+
+.progress-background,
+.progress-value {
+  fill: none;
+  stroke-width: 5;
+}
+
+.progress-background {
+  stroke: #393443;
+}
+
+.progress-value {
+  stroke: #a855f7;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 110px 110px;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.album-cover {
+clip-path: circle(88px at 88px 88px);
+pointer-events: none;
+}

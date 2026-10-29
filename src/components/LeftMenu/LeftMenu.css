@@ -1,0 +1,31 @@
+.left_menu{
+  margin-top: 3%;
+  margin-right: 2%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 18%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.button-left-menu{
+  width: 100%;
+  height: 70px;
+  background-color: #14121A;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  transition: border 0.5s, scale 0.2s;
+}
+.button-left-menu:hover{
+  border: 1px  solid white;
+  
+}
+.button-left-menu:active{
+  scale: calc(0.95);
+  
+}
